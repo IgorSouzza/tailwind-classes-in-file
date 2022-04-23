@@ -8,8 +8,8 @@ TailwindClassesInFile requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and run the file.
 
 ```sh
-npm i
-npm run start
+yarn install
+yarn start
 ```
 
 ## Usage
