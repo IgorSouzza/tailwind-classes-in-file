@@ -18,7 +18,7 @@ async function fetchAndGenerate() {
 
     tableBody.childNodes.forEach(element => {
       const value = element.firstChild.textContent;
-      const label = element.firstChild.textContent.replace('-', ' ');
+      const label = element.firstChild.textContent.replace(/-/g, ' ');
       finalObject.push({ value, label  });
     });
 

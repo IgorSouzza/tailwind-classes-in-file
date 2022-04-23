@@ -14,7 +14,7 @@ yarn start
 
 ## Usage
 
-After start the file, just write the CSS prop, for example:
+After start the file, choose a CSS prop (https://tailwindcss.com/docs/align-self for example) and write in input:
 ```sh
 align-self
 ```
